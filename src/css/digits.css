@@ -1,0 +1,52 @@
+.digits{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.digits div{
+    cursor: pointer;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 24px;
+    color: #2B283A;
+}
+.box{
+    background: #FFFFFF;
+}
+.freeze{
+    background: #59E391;
+}
+.btn-wrap{
+    display: flex;
+    justify-content: center;
+}
+.btn-wrap button{
+    margin-top: 50px;
+    border: none;
+    width: 200px;
+    height: 70px;
+    background: #5035FF;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.18);
+    border-radius: 5px;
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.7px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.btn-wrap button:active{
+    background: linear-gradient(90deg, rgba(17,6,93,1) 0%, rgba(80,53,255,1) 100%);
+}
