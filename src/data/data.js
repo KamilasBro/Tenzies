@@ -1,4 +1,5 @@
-export default[
+export default function data()
+return([
     {
         id: 1,
         freeze: false,
@@ -49,4 +50,4 @@ export default[
         freeze: false,
         digit: Math.floor(Math.random() * 6) + 1
     }
-]
+])
