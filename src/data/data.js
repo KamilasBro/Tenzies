@@ -1,4 +1,4 @@
-export default data[
+export default[
     {
         id: 1,
         freeze: false,
