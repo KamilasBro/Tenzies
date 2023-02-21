@@ -50,7 +50,7 @@ export default function App() {
             document.location.reload()
           }}          
         />
-        {win&&<Confetti/>}
+        {win&&<Confetti className='confetti'/>}
       </div>
     </main>
   );

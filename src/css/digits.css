@@ -50,3 +50,56 @@
 .btn-wrap button:active{
     background: linear-gradient(90deg, rgba(17,6,93,1) 0%, rgba(80,53,255,1) 100%);
 }
+
+@media (max-width: 900px){
+    .digits{
+        margin-top: 30px;
+    }
+    .digits div{
+        margin: 15px;
+        font-size: 27px;
+    }
+    .btn-wrap button{
+        width: 180px;
+        height: 65px;
+    }
+}
+@media (max-width: 768px){
+    .digits{
+        margin-top: 20px;
+    }
+    .digits div{
+        height: 65px;
+        width: 65px;
+        margin: 32px;
+        font-size: 22px;
+    }
+    .btn-wrap button{
+        margin-top: 20px;
+        width: 150px;
+        height: 65px;
+        font-size: 24px;
+    }
+}
+@media (max-width: 550px){
+    .digits div{
+        height: 60px;
+        width: 60px;
+        margin: 16px;
+        font-size: 22px;
+    }
+    .btn-wrap button{
+        margin-top: 20px;
+        width: 130px;
+        height: 55px;
+        font-size: 22px;
+    }
+}
+@media (max-width: 425px){
+    .digits div{
+        height: 60px;
+        width: 60px;
+        margin: 12px;
+        font-size: 22px;
+    }
+}

@@ -27,3 +27,43 @@
     letter-spacing: 1px;
     color: #4A4E74;
 }
+
+@media (max-width: 900px){
+    .texts h1{
+        margin-top: 45px;
+        font-size: 40px;
+        line-height: 25px;
+    }
+    .texts p{
+        width: 450px;
+        margin-top: 12px;
+        font-size: 25px;
+        line-height: 27px;
+    }
+}
+@media (max-width: 768px){
+    .texts h1{
+        margin-top: 0px;
+        padding-top: 40px;
+        font-size: 36px;
+        line-height: 25px;
+    }
+    .texts p{
+        width: 85%;
+        margin-top: 12px;
+        font-size: 22px;
+        line-height: 27px;
+    }
+}
+@media (max-width: 425px){
+    .texts h1{
+        padding-top: 30px;
+        font-size: 32px;
+    }
+    .texts p{
+        width: 85%;
+        margin-top: 8px;
+        font-size: 20px;
+        line-height: 22px;
+    }
+}
