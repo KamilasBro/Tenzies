@@ -7,6 +7,7 @@ body{
 }
 button{
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 main{
     height: 100vh;
@@ -24,6 +25,15 @@ main{
 .confetti{
     height: 100vh;
     width: 100vw;
+}
+@media(max-height: 800px){
+    main{
+        height: auto;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 @media (max-width: 900px){
     .container{
