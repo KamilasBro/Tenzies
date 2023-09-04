@@ -1,3 +1,4 @@
+import "./texts.css"
 export default function Texts(props){
     return(
         <div className="texts">

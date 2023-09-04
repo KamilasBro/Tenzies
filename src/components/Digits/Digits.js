@@ -1,3 +1,4 @@
+import "./digits.css"
 export default function Digits(props){
     return(
         <div className="digits">

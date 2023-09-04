@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import Texts from './components/Texts.js'
-import Digits from './components/Digits.js'
-import Roll from './components/Roll.js';
+import Texts from './components/Texts/Texts.js';
+import Digits from './components/Digits/Digits.js'
+import Roll from './components/Roll/Roll.js';
 import data from './data/data.js'
 import Confetti from 'react-confetti'
 export default function App() {
